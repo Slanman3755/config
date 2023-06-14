@@ -1,0 +1,14 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#    name =
+#    email =
+[alias]
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+    a = add -p
+    cob = checkout -b
+    cim = commit -m
+    pushu = push -u origin HEAD

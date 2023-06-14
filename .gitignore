@@ -1,0 +1,8 @@
+*
+!.config/
+!.config/*
+!.gitignore
+!.gitconfig
+!.tmux.conf
+!.zshenv
+!.zshrc
