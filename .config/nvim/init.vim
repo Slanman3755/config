@@ -1,5 +1,5 @@
-let g:python3_host_prog = $HOME . '/.pyenv/versions/3.9.13/envs/nvim/bin/python'
-let g:jedi#environment_path = $HOME . '/.pyenv/versions/3.9.13/envs/nvim/bin/python'
+let g:python3_host_prog = $HOME . '/.pyenv/versions/nvim/bin/python'
+let g:jedi#environment_path = $HOME . '/.pyenv/versions/nvim/bin/python'
 
 let g:black#settings = {
     \ 'fast': 1,
