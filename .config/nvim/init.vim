@@ -1,4 +1,6 @@
-let g:python3_host_prog = trim(system('poetry -C ~/.config/nvim env info -p')) . '/bin/python'
+let g:python3_host_prog = $HOME . '/Library/Caches/pypoetry/virtualenvs/' . split(system('poetry -C $HOME/.config/nvim env list'))[0] . '/bin/python'
+let g:python_host_prog = g:python3_host_prog
+let g:jedi#environment_path = g:python3_host_prog
 
 let g:black#settings = {
     \ 'fast': 1,
