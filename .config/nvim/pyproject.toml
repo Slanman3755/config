@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nvim"
+version = "0.1.0"
+description = "nvim python environment"
+authors = ["Spencer Lanman <slanman3755@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+black = "^23.3.0"
+pynvim = "^0.4.3"
+jedi = "^0.18.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

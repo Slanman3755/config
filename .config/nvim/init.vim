@@ -1,9 +1,8 @@
-let g:python3_host_prog = $HOME . '/.pyenv/versions/nvim/bin/python'
-let g:jedi#environment_path = $HOME . '/.pyenv/versions/nvim/bin/python'
+let g:python3_host_prog = trim(system('poetry -C ~/.config/nvim env info -p')) . '/bin/python'
 
 let g:black#settings = {
     \ 'fast': 1,
-    \ 'line_length': 88
+    \ 'line_length': 160
 \}
 
 call plug#begin()
